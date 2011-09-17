@@ -1,5 +1,14 @@
 function getVenues(){
 	var venues;	
+	
+	var jQT = new $.jQTouch({
+            icon: 'jqtouch.png',
+            addGlossToIcon: false,
+            startupScreen: 'jqt_startup.png',
+            statusBar: 'black'
+        });
+    
+	
 	var lookup = jQT.updateLocation(function(coords){
 		if(coords){
 			$.ajax({
@@ -11,6 +20,10 @@ function getVenues(){
 			}) 
 		}
 	})
+	
+	if (lookup) {
+		console.log(venues);
+	}
 }
 
 
