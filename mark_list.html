@@ -12,17 +12,19 @@
 	<script type="text/javascript" charset="utf-8" src="./js/jqtouch.js"></script>
 	<script type="text/javascript" charset="utf-8" src="./js/jqt.location.js"></script>
 	<script type="text/javascript" charset="utf-8" src="./js/foursquare.js"></script>
+	<link rel="stylesheet" href='styles.css'>
+
 </head>
 
 <body onload="getVenues()"> 
 
-<div data-role="page" class="type-interior" id="album-list">
+<div data-role="page" data-theme="f" class="type-interior" id="album-list">
 
-	<div data-role="header">
+	<div data-role="header" data-theme="f">
             <h1>Crumbs</h1>
 	</div><!-- /header -->
 	
-        <div data-role="content">
+        <div data-role="content" data-theme="f">
 		<div id="loc-primary">
 			<div id="place-primary">
 				<h1>Paris Cafe</h1>
@@ -39,7 +41,7 @@
 		</div>
 	
 		<div class="content-primary">
-			<ul data-role="listview" data-split-icon="check" data-split-theme="d">
+			<ul data-role="listview" data-split-icon="check" data-split-theme="f" data-theme="f">
 				<li>
 					<a href="paris_cafe.html">
 					<h3>Paris Cafe</h3>
@@ -72,8 +74,8 @@
 		<div>
 	</div><!--/content-primary -->
         
-    <div data-role="footer">
-        <div data-role="navbar">
+    <div data-role="footer" data-theme="f">
+        <div data-role="navbar" >
             <ul>
                 <li><a href="view_list.html">More Places?</a></li>
                 <li><a href="my_crumbs.html">My Crumbs</a></li>
