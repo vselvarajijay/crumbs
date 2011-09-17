@@ -1698,7 +1698,21 @@ span.ui-slider-label-b { right: -100%;  margin-left: -1px }
 	font-family: Helvetica, Arial, sans-serif;
 	text-decoration: none;
 }
+/*non themed*/
+.ui-li-heading, .ui-li-desc, .phone {
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, .5);	
+}
 .ui-li-heading {
 	color: #523000;
-	text-shadow: 1px 1px 0 rgba(255, 255, 255, .5);
+	
+}
+.ui-li-desc {
+	color: #333;
+}
+.phone {
+	display: inline-block;
+	position: absolute;
+	top: 2.67em;
+	left: 20em;
+	color: #7C2900;
 }
