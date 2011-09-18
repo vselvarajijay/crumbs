@@ -10,7 +10,7 @@ $(function(){
 				console.log(text)
             }
 			function addItem(obj){		
-				var venue = '<li><a><p>'+obj.name+'</p></a></li>'
+				var venue = '<li><a href="'+obj.url+'"><h3>'+obj.name+'</h3><p>'+obj.location.address+'</p><p>'+obj.location.crossStreet+'</p><p>'+obj.location.city+','+obj.location.state+'</p><p class="phone">'+obj.contact.formattedPhone+'</p></a><a href="mark_here.html" data-transition="slideup"></a></a></li>'
 				
 				
 				$('.list').append(venue);
