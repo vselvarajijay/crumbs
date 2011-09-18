@@ -13,6 +13,124 @@
 */
 
 
+/* A
+-----------------------------------------------------------------------------------------------------------*/
+
+.ui-bar-a {
+	border: 1px solid 		#2A2A2A;
+	background: 			#111111;
+	color: 					#ffffff;
+	font-weight: bold;
+	text-shadow: 0 -1px 1px #000000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#3c3c3c), to(#111)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #3c3c3c, #111); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #3c3c3c, #111); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #3c3c3c, #111); /* IE10 */
+	background-image:      -o-linear-gradient(top, #3c3c3c, #111); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #3c3c3c, #111);
+}
+.ui-bar-a, 
+.ui-bar-a input, 
+.ui-bar-a select, 
+.ui-bar-a textarea, 
+.ui-bar-a button {
+	font-family: "Arimo", sans-serif;
+}
+.ui-bar-a .ui-link-inherit {
+	color: 					#fff;
+}
+.ui-bar-a .ui-link {
+	color: 					#7cc4e7;
+	font-weight: bold;
+}
+.ui-body-a {
+	border: 1px solid 		#2A2A2A;
+	background: 			#222222;
+	color: 					#fff;
+	 text-shadow: 0 1px 0 	#000;
+	font-weight: normal;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#666), to(#222)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #666, #222); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #666, #222); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #666, #222); /* IE10 */
+	background-image:      -o-linear-gradient(top, #666, #222); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #666, #222);	
+}
+.ui-body-a,
+.ui-body-a input,
+.ui-body-a select,
+.ui-body-a textarea,
+.ui-body-a button {
+	font-family: "Arimo", sans-serif;
+}
+.ui-body-a .ui-link-inherit {
+	color: 					#fff;
+}
+.ui-body-a .ui-link {
+	color: 					#2489CE;
+	font-weight: bold;
+}
+.ui-br {
+	border-bottom: rgb(130,130,130);
+	border-bottom: rgba(130,130,130,.3);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+.ui-btn-up-a {
+	border: 1px solid 		#222;
+	background: 			#333333;
+	font-weight: bold;
+	color: 					#fff;
+	text-shadow: 0 -1px 1px #000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#555), to(#333)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #555, #333); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #555, #333); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #555, #333); /* IE10 */
+	background-image:      -o-linear-gradient(top, #555, #333); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #555, #333);
+}
+.ui-btn-up-a a.ui-link-inherit {
+	color: 					#fff;
+}
+.ui-btn-hover-a {
+	border: 1px solid 		#000;
+	background: 			#444444;
+	font-weight: bold;
+	color: 					#fff;
+	text-shadow: 0 -1px 1px #000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#666), to(#444)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #666, #444); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #666, #444); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #666, #444); /* IE10 */
+	background-image:      -o-linear-gradient(top, #666, #444); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #666, #444);
+}
+.ui-btn-hover-a a.ui-link-inherit {
+	color: 					#fff;
+}
+.ui-btn-down-a {
+	border: 1px solid 		#000;
+	background: 			#3d3d3d;
+	font-weight: bold;
+	color: 					#fff;
+	text-shadow: 0 -1px 1px #000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#333), to(#5a5a5a)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #333, #5a5a5a); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #333, #5a5a5a); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #333, #5a5a5a); /* IE10 */
+	background-image:      -o-linear-gradient(top, #333, #5a5a5a); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #333, #5a5a5a);
+}
+.ui-btn-down-a a.ui-link-inherit {
+	color: 					#fff;
+}
+.ui-btn-up-a,
+.ui-btn-hover-a,
+.ui-btn-down-a {
+	font-family: "Arimo", sans-serif;
+	text-decoration: none;
+}
+
 
 /* B
 -----------------------------------------------------------------------------------------------------------*/
@@ -35,7 +153,7 @@
 .ui-bar-b select,
 .ui-bar-b textarea,
 .ui-bar-b button {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "Arimo", sans-serif;
 }
 .ui-bar-b .ui-link-inherit {
 	color: 					#fff;
@@ -63,7 +181,7 @@
 .ui-body-b select,
 .ui-body-b textarea,
 .ui-body-b button {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "Arimo", sans-serif;
 }
 .ui-body-b .ui-link-inherit {
 	color: 					#333333;
@@ -123,7 +241,7 @@
 .ui-btn-up-b,
 .ui-btn-hover-b,
 .ui-btn-down-b {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "Arimo", sans-serif;
 	text-decoration: none;
 }
 
@@ -149,7 +267,7 @@
 .ui-bar-c select,
 .ui-bar-c textarea,
 .ui-bar-c button {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "Arimo", sans-serif;
 }
 .ui-body-c {
 	border: 1px solid 		#B3B3B3;
@@ -168,7 +286,7 @@
 .ui-body-c select,
 .ui-body-c textarea,
 .ui-body-c button {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "Arimo", sans-serif;
 }
 .ui-body-c .ui-link-inherit {
 	color: 					#333333;
@@ -230,7 +348,7 @@
 .ui-btn-up-c,
 .ui-btn-hover-c,
 .ui-btn-down-c {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "Arimo", sans-serif;
 	text-decoration: none;
 }
 
@@ -255,7 +373,7 @@
 .ui-bar-d select,
 .ui-bar-d textarea,
 .ui-bar-d button {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "Arimo", sans-serif;
 }
 .ui-bar-d .ui-link-inherit {
 	color: 					#333;
@@ -275,7 +393,7 @@
 .ui-body-d select,
 .ui-body-d textarea,
 .ui-body-d button {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "Arimo", sans-serif;
 }
 .ui-body-d .ui-link-inherit {
 	color: 					#333333;
@@ -330,7 +448,7 @@
 .ui-btn-up-d,
 .ui-btn-hover-d,
 .ui-btn-down-d {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "Arimo", sans-serif;
 	text-decoration: none;
 }
 
@@ -355,7 +473,7 @@
 .ui-bar-e select,
 .ui-bar-e textarea,
 .ui-bar-e button {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "Arimo", sans-serif;
 }
 .ui-bar-e .ui-link-inherit {
 	color: 					#333;
@@ -381,7 +499,7 @@
 .ui-body-e select,
 .ui-body-e textarea,
 .ui-body-e button {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "Arimo", sans-serif;
 }
 .ui-body-e .ui-link-inherit {
 	color: 					#333333;
@@ -442,7 +560,7 @@
 .ui-btn-up-e,
 .ui-btn-hover-e,
 .ui-btn-down-e {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "Arimo", sans-serif;
 	text-decoration: none;
 }
 
@@ -1600,7 +1718,7 @@ span.ui-slider-label-b { right: -100%;  margin-left: -1px }
 .ui-bar-f select, 
 .ui-bar-f textarea, 
 .ui-bar-f button {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "Arimo", sans-serif;
 }
 .ui-bar-f .ui-link-inherit {
 	color: 	#fff;
@@ -1627,7 +1745,7 @@ span.ui-slider-label-b { right: -100%;  margin-left: -1px }
 .ui-body-f select,
 .ui-body-f textarea,
 .ui-body-f button {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "Arimo", sans-serif;
 }
 .ui-body-f .ui-link-inherit {
 	color: #fff;
@@ -1693,7 +1811,7 @@ span.ui-slider-label-b { right: -100%;  margin-left: -1px }
 .ui-btn-up-f,
 .ui-btn-hover-f,
 .ui-btn-down-f {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "Arimo", sans-serif;
 	text-decoration: none;
 }
 /*non themed*/
