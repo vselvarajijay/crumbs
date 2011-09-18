@@ -11,7 +11,7 @@ $(function(){
             }
 			function addItem(obj){		
 				var venue = '<li><a href="'+obj.url+'"><h3>'+obj.name+'</h3><p>'+obj.location.address+'</p><p>'+obj.location.crossStreet+'</p><p>'+obj.location.city+','+obj.location.state+'</p><p class="phone">'+obj.contact.formattedPhone+'</p></a><a href="mark_here.html" data-transition="slideup"></a></a></li>'							
-				$('.list').append(venue);
+				$('#list').append(venue);
 				console.log(obj);	
 			}
             // We pass "updateLocation" a callback function,
@@ -26,7 +26,7 @@ $(function(){
 			url:'https://api.foursquare.com/v2/venues/search?ll='+coords.latitude+','+coords.longitude+'&oauth_token=NOWWELWARHDMJJW3ZZNKIK5M3FNWCKPBTTFGZLZG4OE4QMOK&v=20110917',
 			success:function(data){
 				console.log(data);
-				alert(data.response.venues[0].name);
+//				alert(data.response.venues[0].name);
 				for (var item in data.response.venues)
 					addItem(data.response.venues[item]);
 			}
