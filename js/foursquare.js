@@ -1,19 +1,27 @@
-        var jQT = new $.jQTouch({
+var jQT = new $.jQTouch({
             icon: 'jqtouch.png',
             addGlossToIcon: false,
             startupScreen: 'jqt_startup.png',
             statusBar: 'black'
-        });
+});
 
-        $(function(){
-		
-			console.log('test')
+$(function(){
             function setDisplay(text) {
 				console.log(text)
             }
-	function addItem(obj){
-	    console.log(obj)
-	}
+			function addItem(obj){
+				$('.list').append('<li>
+					<a href="'+obj.url+'">
+					<h3>'+obj.name+'</h3>
+					<p>'+obj.address+'</p>
+					<p>'+obj.crossStreet+'</p>
+					<p>'+obj.city+', '+obj.state+'</p>
+					<p class="phone">'obj.formattedPhone+'</p>
+					</a><a href="mark_here.html" data-transition="slideup"></a>
+					</li>')						
+	    		console.log(obj)
+	
+			}
             
             // We pass "updateLocation" a callback function,
             // to run once we have the coordinates.
