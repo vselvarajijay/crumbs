@@ -9,17 +9,12 @@ $(function(){
             function setDisplay(text) {
 				console.log(text)
             }
-			function addItem(obj){
-				$('.list').append('<li>
-					<a href="'+obj.url+'">
-					<h3>'+obj.name+'</h3>
-					<p>'+obj.address+'</p>
-					<p>'+obj.crossStreet+'</p>
-					<p>'+obj.city+', '+obj.state+'</p>
-					<p class="phone">'obj.formattedPhone+'</p>
-					</a><a href="mark_here.html" data-transition="slideup"></a>
-					</li>')						
-	    		console.log(obj)
+			function addItem(obj){		
+				var venue = '<li><a><p>'+obj.name+'</p></a></li>'
+				
+				
+				$('.list').append(venue);
+				console.log(obj);
 	
 			}
             
