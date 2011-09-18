@@ -1731,7 +1731,7 @@ span.ui-slider-label-b { right: -100%;  margin-left: -1px }
 	border: 1px solid #2A2A2A;
 	background: #607F4C;
 	color: #fff;
-	 text-shadow: 0 1px 0 	#000;
+	text-shadow: 0 1px 0 #000;
 	font-weight: normal;
 	/*background-image: -webkit-gradient(linear, left top, left bottom, from(#666), to(#222)); /* Saf4+, Chrome *!/
 	background-image: -webkit-linear-gradient(top, #666, #222); /* Chrome 10+, Saf5.1+ *!/
@@ -1761,8 +1761,6 @@ span.ui-slider-label-b { right: -100%;  margin-left: -1px }
 	border-bottom-style: solid;
 }
 .ui-btn-up-f {
-	border-top: 1px solid #FFF9EE;
-	border-bottom: 1px solid #C9A57D;
 	background: #FFE8BA;
 	font-weight: bold;
 	color: 	#fff;
@@ -1817,20 +1815,82 @@ span.ui-slider-label-b { right: -100%;  margin-left: -1px }
 	text-decoration: none;
 }
 /*non themed*/
-.ui-li-heading, .ui-li-desc, .phone {
+#list  {
+	margin: 0;
+	padding: 0;
+	list-style: none;
 	text-shadow: 1px 1px 0 rgba(255, 255, 255, .5);	
 }
-.ui-li-heading {
-	color: #523000;
+#list li {
 	
+	background-color: #FFE8BA;
 }
-.ui-li-desc {
+#list a {
+	color: #523000;
+}
+#list p{
 	color: #333;
 }
-.phone {
+#list .phone {
 	display: inline-block;
 	position: absolute;
 	top: 2.67em;
 	left: 20em;
 	color: #7C2900;
 }
+/*overwrite*/
+.ui-content {
+	padding: 0;
+}
+/*user agent overwrite*/
+.ui-bar-f {
+	height: 1.5em;
+}
+#list li {
+	position: relative;
+	padding: 1em;	
+	border-top: 1px solid #FFF9EE;
+	border-bottom: 1px solid #C9A57D;
+}
+#list h3, #list p {
+	-webkit-margin-before: 0 !important;
+	-webkit-margin-after: 0 !important;
+}
+#list .primaryItem h3 {
+	font-size: 24px;
+}
+#list .primaryItem {
+	font-size: 18px	;
+}
+#list p {
+	font-size: 12px;
+}
+#list .primaryItem {
+	display: block;
+	background: #1F201F;
+	margin: 1em;
+	padding: 1em;
+	border: none;	
+	border-radius: 10px;
+}
+#list .primaryItem a:first-child {
+	background: #fff;
+	display: block;
+	padding: 1em;
+	margin-right: 120px;
+	border-radius: 5px;
+}
+#list .primaryItem .markButton {
+	display: block;
+	width: 107px;
+	height: 82px;
+	background: #B34212;
+	position: absolute;
+	right: 1em;
+	bottom: 1em;	
+	border-radius: 10px;
+}
+#list a {
+	text-decoration: none;
+}
+
