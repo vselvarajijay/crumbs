@@ -10,14 +10,10 @@ $(function(){
 				console.log(text)
             }
 			function addItem(obj){		
-				var venue = '<li><a><p>'+obj.name+'</p></a></li>'
-				
-				
+				var venue = '<li><a><p>'+obj.name+'</p></a></li>';					
 				$('.list').append(venue);
-				console.log(obj);
-	
+				console.log(obj);	
 			}
-            
             // We pass "updateLocation" a callback function,
             // to run once we have the coordinates.
             // We also set it to a variable, so we can know
