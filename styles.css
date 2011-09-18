@@ -1738,6 +1738,15 @@ span.ui-slider-label-b { right: -100%;  margin-left: -1px }
 	-webkit-margin-before: 0 !important;
 	-webkit-margin-after: 0 !important;
 }
+#list .primaryItem h3 {
+	font-size: 24px;
+}
+#list .primaryItem {
+	font-size: 18px	;
+}
+#list p {
+	font-size: 12px;
+}
 #list .primaryItem {
 	display: block;
 	background: #1F201F;
@@ -1762,5 +1771,8 @@ span.ui-slider-label-b { right: -100%;  margin-left: -1px }
 	right: 1em;
 	bottom: 1em;	
 	border-radius: 10px;
+}
+#list a {
+	text-decoration: none;
 }
 
