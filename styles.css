@@ -1725,6 +1725,9 @@ span.ui-slider-label-b { right: -100%;  margin-left: -1px }
 	padding: 0;
 }
 /*user agent overwrite*/
+.ui-bar-f {
+	height: 1.5em;
+}
 #list li {
 	position: relative;
 	padding: 1em;	
@@ -1734,5 +1737,30 @@ span.ui-slider-label-b { right: -100%;  margin-left: -1px }
 #list h3, #list p {
 	-webkit-margin-before: 0 !important;
 	-webkit-margin-after: 0 !important;
+}
+#list .primaryItem {
+	display: block;
+	background: #1F201F;
+	margin: 1em;
+	padding: 1em;
+	border: none;	
+	border-radius: 10px;
+}
+#list .primaryItem a:first-child {
+	background: #fff;
+	display: block;
+	padding: 1em;
+	margin-right: 120px;
+	border-radius: 5px;
+}
+#list .primaryItem .markButton {
+	display: block;
+	width: 107px;
+	height: 82px;
+	background: #B34212;
+	position: absolute;
+	right: 1em;
+	bottom: 1em;	
+	border-radius: 10px;
 }
 
